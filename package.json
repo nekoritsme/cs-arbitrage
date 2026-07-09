@@ -1,0 +1,18 @@
+{
+  "name": "cs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "fetch-charms.js",
+  "scripts": {
+    "fetch:charms": "node fetch-charms.js",
+    "fetch:charms:reset": "node fetch-charms.js --reset",
+    "fetch:clean-skins": "node fetch-clean-skins.js",
+    "fetch:clean-skins:reset": "node fetch-clean-skins.js --reset",
+    "filter:charms": "node filter-charms.js",
+    "analyze:charms": "node analyze-charms.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marat",
+  "license": "ISC"
+}
